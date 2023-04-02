@@ -41,7 +41,7 @@ public class PlayerScript : MonoBehaviour
     }
 
     void Death(){
-
+        Application.Quit();
     }
 
     IEnumerator PlaySpawnAudio(){
